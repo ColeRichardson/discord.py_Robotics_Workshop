@@ -10,14 +10,18 @@ python -m venv venv #this creates a virtual environment, the next command activa
 ./venv/Scripts/Activate.ps1 #note this might be different depending on the os and terminal you are using check here for more info
 pip install -r requirements.txt #This command will install all the necessary modules needed to run the bot.
 
-2) Get your discord api key here: https://discord.com/developers/applications
-Essentially go to bot -> create a bot -> copy token
-Then go to Oauth2 -> URL generator -> scopes select bot & application commands
-Next, set dsired bot permissions by nature this will vary depending on what you want your bot to do. best practice is to avoid giving unnecssary perms.
-Lastly on the bottom of the page you will see enerated URL, click the copy button and paste into your browser
+2)Get your discord api key here: https://discord.com/developers/applications
+(1/4)Essentially go to bot -> create a bot -> copy token
+![alt text](https://github.com/ColeRichardson/discord.py_Robotics_Workshop/blob/main/how%20to%20create%20bot%20pics/add%20bot%201%20of%204.jpg)
+(2/4)Then go to Oauth2 -> URL generator -> scopes select bot & application commands
+![alt text](https://github.com/ColeRichardson/discord.py_Robotics_Workshop/blob/main/how%20to%20create%20bot%20pics/get%20bot%20token%202%20of%204.PNG)
+(3/4)Next, set dsired bot permissions by nature this will vary depending on what you want your bot to do. best practice is to avoid giving unnecssary perms.
+![alt text](https://github.com/ColeRichardson/discord.py_Robotics_Workshop/blob/main/how%20to%20create%20bot%20pics/oauth%20generation%203%20of%204.PNG)
+(4/4)Lastly on the bottom of the page you will see enerated URL, click the copy button and paste into your browser
+![alt text](https://github.com/ColeRichardson/discord.py_Robotics_Workshop/blob/main/how%20to%20create%20bot%20pics/permission%20and%20url%204%20of%204.PNG)
 Invite the bot into desired server and you are ready to go!
 
-3)now you should be able to run the example by simply running the script. this can be done in terminal by typing: python ./bot.py
+3)Now you should be able to run the example by simply running the script. this can be done in terminal by typing: python ./bot.py
 The bot should run and you are now able to interact with it by using slash commands. 
 
-4) Write your code and test it! Remember for your code to take affect you will need to stop the script and re run it. Also keep in mind that sometimes it take a little while newly created slash commands to sync up with discord.
+4)Write your code and test it! Remember for your code to take affect you will need to stop the script and re run it. Also keep in mind that sometimes it take a little while newly created slash commands to sync up with discord.
