@@ -12,6 +12,7 @@ from dotenv import load_dotenv
 
 #internal imports
 from mathbot import Mathbot
+from timer import Timer
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -29,4 +30,5 @@ async def on_ready():
     await client.change_presence(activity=activity)
 
 client.add_cog(Mathbot(client))
+client.add_cog(Timer(client))
 client.run(TOKEN)
